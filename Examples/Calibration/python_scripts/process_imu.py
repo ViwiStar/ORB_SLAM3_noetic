@@ -15,10 +15,12 @@
 * You should have received a copy of the GNU General Public License along with ORB-SLAM3.
     * If not, see <http://www.gnu.org/licenses/>.
 '''
-
+# import gi # failed to fix Gtk-ERROR **: 17:58:10.688: GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported
+# gi.require_version('Gtk', '2.0')
 import sys
 import numpy as np
 import matplotlib.pyplot as plt
+
 
 
 class dataset:

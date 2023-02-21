@@ -204,6 +204,8 @@ if __name__=="__main__":
         file.close()
 
     if args.plot:
+        # import gi # failed to fix Gtk-ERROR **: 17:58:10.688: GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported
+        # gi.require_version('Gtk', '2.0')
         import matplotlib
         matplotlib.use('Agg')
         import matplotlib.pyplot as plt
